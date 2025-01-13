@@ -1,0 +1,99 @@
+/* Allgemeines Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px 0;
+}
+
+.question-container, .points-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #004bcc;
+}
+
+.button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.points-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.points-controls {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.points-controls button {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+.points-value {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#answer {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffd700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+.summary {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}

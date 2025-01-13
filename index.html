@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quiz App</h1>
+
+    <div class="question-container">
+        <h2 id="question">Frage wird geladen...</h2>
+        <button id="show-answer" class="button">Antwort anzeigen</button>
+        <p id="answer" style="display: none;">Antwort wird geladen...</p>
+    </div>
+
+    <div class="points-container">
+        <h2>Punktestand</h2>
+        <div class="points-controls">
+            <button id="decrease-points" class="button">-</button>
+            <span id="points" class="points-value">0</span>
+            <button id="increase-points" class="button">+</button>
+        </div>
+        <button id="copy-result" class="button">Ergebnis kopieren</button>
+    </div>
+
+    <div class="nav-buttons">
+        <button id="prev-question" class="button" disabled>Zurück</button>
+        <button id="next-question" class="button">Weiter</button>
+    </div>
+
+    <div class="summary" id="summary" style="display: none;">
+        Gesamtergebnis: <span id="total-points">0</span> Punkte
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
