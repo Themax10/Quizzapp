@@ -8,7 +8,6 @@ const quizData = [
     { question: "Welcher Planet ist der Sonne am nächsten?", answer: "Merkur" },
     { question: "Wodurch begann der erste Weltkrieg?", answer: "Attentat auf Franz Ferdinand" },
     { question: "Wann war der erste Weltkrieg?", answer: "1914-1918" },
-    { question: "Wann begann der erste Weltkrieg?", answer: "1914" },
     { question: "Wer ist unser Bundespräsident?", answer: "Frank-Walter Steinmeier" },
     { question: "Gibt es mehr Flugzeuge im Meer, oder mehr Boote im Weltall?", answer: "Mehr Flugzeuge im Meer" },
     { question: "Wie alt ist Olaf Scholz?", answer: "Er wurde 1958 geboren" },
@@ -17,7 +16,6 @@ const quizData = [
     { question: "Was sind die ersten 5 Nachkommastellen von Pi?", answer: "3,14159" },
     { question: "Wie viele Autos gibt es im Weltall?", answer: "Ein Auto (Tesla)" },
     { question: "In welchem Jahr begann der Zweite Weltkrieg?", answer: "1939" },
-    { question: "Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?", answer: "Konrad Adenauer" },
     { question: "Wie viele Zähne hat ein erwachsener Mensch normalerweise?", answer: "32" },
     { question: "Wie wird die Zahl unter dem Bruchstrich bezeichnet?", answer: "Nenner" },
     { question: "Wie viele Planeten hat unser Sonnensystem?", answer: "8" },
@@ -42,6 +40,7 @@ const quizData = [
     { question: "Wie heißt der Trainer der Nationalmannschaft?", answer: "Julian Nagelsmann" },
     { question: "Wer hat letztes Jahr die Nationalmannschaft verlassen?", answer: "Toni Kroos, Thomas Müller, Manuel Neuer, İlkay Gündoğan" }
 ];
+
 
 let currentQuestionIndex = 0;
 let points = 0;
