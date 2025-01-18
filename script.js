@@ -47,7 +47,7 @@ const quizData = [
     { question: "Wo ist die spanische Treppe?", answer: "Rom" },
     { question: "Wieviele Elemente gibt es im Periodensystem?", answer: "118" },
     { question: "Wer komponierte ‚Die Zauberflöte‘?", answer: "Wolfgang Amadeus Mozart" },
-    { question: "Wie viel Prozent der Erde sind von Wasser bedeckt?", answer: "Ungefähr 70%" }
+    { question: "Wie viel Prozent der Erde sind von Wasser bedeckt?", answer: "Ungefähr 70%" },
     { question: "Wie heißt die Hauptstadt von Vietnam?", answer: "Hanoi" },
     { question: "Welches Element hat die Bezeichnung Fe?", answer: "Eisen" }
 ];
